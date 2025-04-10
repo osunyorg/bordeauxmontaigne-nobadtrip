@@ -15,4 +15,11 @@ items:
   children: []
   path: "/pages/chapitre-2-1"
   file: content/fr/pages/chapitre-2-1/_index.html
+- title: Chapitre 3
+  target: "/chapitre-3/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/chapitre-3"
+  file: content/fr/pages/chapitre-3/_index.html
 
