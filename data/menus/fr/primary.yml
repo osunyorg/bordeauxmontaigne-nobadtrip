@@ -2,10 +2,12 @@
 title: Menu principal
 items:
 - title: 1. L'addiction
-  target: https://nobadtrip.mmibordeaux.com/chapitre-1/
-  kind: url
+  target: "/chapitre-1/"
+  kind: page
   new_tab: false
   children: []
+  path: "/pages/chapitre-1"
+  file: content/fr/pages/chapitre-1/_index.html
 - title: Chapitre 2 - Le déni face à l’addiction
   target: https://nobadtrip.mmibordeaux.com/chapitre-2-1/
   kind: url
