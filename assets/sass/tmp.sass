@@ -1,0 +1,281 @@
+/* =======================================================
+   THEME : No Bad Trip – configuration globale SASS (DA refondue)
+   ======================================================= */
+
+/* 🎨 PALETTE DE COULEURS */
+$color-accent: rgba(255, 255, 255, 0.1)                      // Orange corail doux
+$color-text: #F1F1F1                         // Texte principal clair
+$color-text-alt: #9A9A9A                     // Texte secondaire doux
+$color-border: rgba(255, 255, 255, 0.1)      // Bordures subtiles
+$color-background: #0E0E0E                   // Noir profond, mat
+$color-background-alt: #1B1B1B               // Fond secondaire
+
+/* 🌍 BODY */
+$body-color: $color-text 
+$body-background-color: $color-background 
+
+/* 🅰️ TYPOGRAPHIE */
+$body-font-family: "Sora", "Helvetica", sans-serif !default
+$heading-font-family: "Sora", "Impact", sans-serif !default
+
+
+$body-size: px2rem(18) 
+$body-size-desktop: px2rem(20) 
+$body-line-height: 160% 
+$body-weight: 400 
+$body-letter-spacing: 0.012em 
+
+$heading-font-weight: 600 
+$heading-letter-spacing: 0.01em 
+$h1-weight: $heading-font-weight 
+$h2-weight: $heading-font-weight 
+$h3-weight: $heading-font-weight 
+
+$h1-size: px2rem(34) 
+$h1-size-desktop: px2rem(60) 
+$h2-size: px2rem(30) 
+$h2-size-desktop: px2rem(42) 
+$h3-size: px2rem(26) 
+$h3-size-desktop: px2rem(32) 
+
+/* 📏 SPACING + GRID */
+$spacing1: 24px 
+$spacing2: 48px 
+$spacing3: 64px 
+$spacing4: 128px 
+$spacing5: 256px 
+
+$grid-gutter: 48px 
+$grid-max-width: 1440px 
+
+/* 🧭 HEADER */
+$header-color: $color-text 
+$header-hover-color: $color-accent 
+$header-background: transparent 
+$header-sticky-enabled: true 
+$header-sticky-background: $color-background 
+$header-sticky-color: $header-color 
+$header-dropdown-background: $color-background-alt 
+$header-logo-height: 70px 
+$header-height: 80px 
+$header-transition: 0.3s ease-in-out 
+
+/* 🦶 FOOTER */
+$footer-color: $color-text 
+$footer-background-color: $color-background-alt 
+$footer-logo-height: 36px 
+
+/* 📣 HERO */
+$hero-height: 200px 
+$hero-height-desktop: 480px 
+$hero-color: $color-text 
+$hero-background-color: $color-background-alt 
+
+/* ✨ BREADCRUMB */
+$breadcrumb-color: $color-text-alt 
+$breadcrumb-icon: "caret-right" 
+$breadcrumb-icon-color: $color-accent 
+
+/* 📦 BLOCKS - Call to action */
+$block-call-to-action-background: $color-accent 
+$block-call-to-action-color: $color-background 
+$block-call-to-action-button-background: $color-background 
+$block-call-to-action-button-color: $color-accent 
+
+/* 🧍 PERSONS */
+$persons-avatar-background-color: $color-background-alt 
+
+/* 📈 TABLES */
+$table-head-font-size: px2rem(18) 
+$table-body-size: $body-size 
+
+/* 🔉 TESTIMONIALS */
+$block-testimonials-color: $color-accent 
+$block-testimonials-style: italic 
+
+/* 📚 TOC */
+$toc-color: $color-text 
+$toc-active-color: $color-accent 
+$toc-background-color: $color-background-alt 
+
+/* 🖼️ GALLERY */
+$block-gallery-carousel-background: $color-background-alt 
+
+/* 💾 DIVERS */
+$zindex-nav-accessibility: 1010 
+$zindex-stretched-link: 2 
+$arrow-ease-transition: cubic-bezier(0.3, 0.65, 0.4, 1) 
+
+
+
+.block-key_figures
+  max-width: 1000px
+  margin-left: auto
+  margin-right: auto
+  padding: $spacing-1 0
+
+  .top
+    margin-bottom: $spacing-1
+
+  ul
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    gap: $spacing-2
+    padding: 0
+    list-style: none
+    margin-top: $spacing-1
+
+  li
+    background-color: transparent
+    border-radius: 0px
+    padding: 0
+    box-shadow: none
+    text-align: center
+    flex: 1 1 200px
+    max-width: 300px
+    cursor: default
+
+    span
+      display: block
+      font-family: $block-key_figures-number-font-family
+      font-size: 2rem
+      font-weight: $block-key_figures-unit-font-weight
+      line-height: 1
+      white-space: nowrap
+      color: $color-text
+      margin-bottom: 30px // Augmenter l'écart ici pour plus d'espace entre les chiffres et la description
+
+      strong
+        display: inline-block
+        font-size: 4rem
+        font-weight: $block-key_figures-number-font-weight
+        margin-inline-end: 0.1em
+        color: white
+        text-shadow: 0 0 6px rgba(28, 20, 104, 1), 0 0 12px rgba(28, 20, 104, 0.8), 0 0 20px rgba(28, 20, 104, 0.6), 0 0 28px rgba(28, 20, 104, 0.4)
+
+      img
+        margin-bottom: $spacing-1
+        max-width: $block-key_figures-image-max-width
+
+      picture.is-png
+        img
+          max-width: $block-key_figures-icon-max-width
+
+    p
+      color: $color-text-alt
+      font-size: 90%
+      line-height: 1.2
+
+  @include media-breakpoint-up(desktop)
+    li
+      span
+        font-size: 2.4rem
+        strong
+          font-size: 4.4rem
+
+  @include media-breakpoint-up(lg)
+    li
+      span
+        font-size: 2.8rem
+        strong
+          font-size: 4.8rem
+
+  @include media-breakpoint-up(xl)
+    li
+      span
+        font-size: 3.2rem
+        strong
+          font-size: 5.2rem
+
+  @include media-breakpoint-up(xxl)
+    li
+      span
+        font-size: 3.6rem
+        strong
+          font-size: 5.6rem
+
+  @include media-breakpoint-down(md)
+    li
+      flex: 1 1 100%
+      max-width: 100%
+      margin-bottom: $spacing-1
+
+
+
+.block-links
+    ul
+        @include list-reset
+        @include grid(2, md)
+        align-items: flex-start
+    li
+        background-color: $block-links-card-background
+        color: $block-links-card-color
+        display: flex
+        flex-direction: column-reverse
+        justify-content: flex-end
+        position: relative
+        transition: background $background-duration ease, transform 0.3s ease, box-shadow 0.3s ease
+        border: 2px solid transparent // Ajouter une bordure transparente initialement
+        border-radius: 8px // Bords arrondis pour le carré
+        overflow: hidden // Pour ne pas que l'effet de survol dépasse du carré
+        cursor: pointer // Changer le curseur pour un lien
+
+        .link-content
+            flex: 1
+            line-height: 100%
+            padding: space(4) space(4) space(8)
+            min-height: pxToRem(130)
+
+        a
+            @include stretched-link(before)
+            text-decoration: none
+            color: inherit // La couleur reste inchangée
+            transition: color 0.3s ease
+            &::after
+                bottom: space(3)
+                position: absolute
+                right: space(3)
+
+        p
+            @include small
+            margin-top: space(3)
+
+        .media
+            picture
+                &:not(.is-svg, .is-png) 
+                    img
+                        display: block
+                        object-fit: cover
+                        width: 100%
+                        height: 100%
+                        aspect-ratio: 16/9
+                &.is-png,
+                &.is-svg
+                    img
+                        margin: space(4) space(4) 0
+                        max-width: $block-links-icon-max-width
+
+        // Effet hover pour l'élément li
+        &:hover
+            // Ne pas changer la couleur de fond, garder celle de base
+            border-color: #FF6347 // Couleur de bordure au survol (exemple : tomate)
+            transform: scale(1.05) // Légère animation de mise en valeur au survol
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1) // Ajouter une ombre au survol pour un effet de profondeur
+
+    @include in-page-without-sidebar
+        .top
+            display: flex
+            gap: var(--grid-gutter)
+            .block-title
+                width: columns(4)
+            .description
+                flex: 1
+                margin-top: 0
+        ul
+            @include grid(3, md)
+
+    @include media-breakpoint-down(md)
+        ul
+            li + li
+                margin-top: $spacing-3
