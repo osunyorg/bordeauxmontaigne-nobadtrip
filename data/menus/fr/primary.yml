@@ -2,12 +2,12 @@
 title: Menu principal
 items:
 - title: 1. L'addiction
-  target: "/chapitre-1/"
+  target: "/addiction/"
   kind: page
   new_tab: false
   children: []
-  path: "/pages/chapitre-1"
-  file: content/fr/pages/chapitre-1/_index.html
+  path: "/pages/addiction"
+  file: content/fr/pages/addiction/_index.html
 - title: 2. Le déni face à l’addiction
   target: "/chapitre-2-1/"
   kind: page
