@@ -9,17 +9,17 @@ items:
   path: "/pages/addiction"
   file: content/fr/pages/addiction/_index.html
 - title: 2. Le déni face à l’addiction
-  target: "/chapitre-2-1/"
+  target: "/deni-addiction/"
   kind: page
   new_tab: false
   children: []
-  path: "/pages/chapitre-2-1"
-  file: content/fr/pages/chapitre-2-1/_index.html
+  path: "/pages/deni-addiction"
+  file: content/fr/pages/deni-addiction/_index.html
 - title: 3. La rechute
-  target: "/chapitre-3/"
+  target: "/rechute/"
   kind: page
   new_tab: false
   children: []
-  path: "/pages/chapitre-3"
-  file: content/fr/pages/chapitre-3/_index.html
+  path: "/pages/rechute"
+  file: content/fr/pages/rechute/_index.html
 
