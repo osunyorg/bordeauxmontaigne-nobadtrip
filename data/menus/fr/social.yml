@@ -16,4 +16,9 @@ items:
   kind: url
   new_tab: true
   children: []
+- title: Tiktok
+  target: https://www.tiktok.com/@nobadtrip.off
+  kind: url
+  new_tab: true
+  children: []
 
