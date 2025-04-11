@@ -1,13 +1,13 @@
 ---
 title: Liens sociaux
 items:
-- title: Instagram
-  target: https://www.instagram.com/nobadtrip.off
+- title: Youtube
+  target: https://www.youtube.com/@NoBadTrip-b5i
   kind: url
   new_tab: true
   children: []
-- title: Youtube
-  target: https://www.youtube.com/@NoBadTrip-b5i
+- title: Instagram
+  target: https://www.instagram.com/nobadtrip.off
   kind: url
   new_tab: true
   children: []
