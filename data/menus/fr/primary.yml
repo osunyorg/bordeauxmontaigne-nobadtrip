@@ -16,10 +16,8 @@ items:
   path: "/pages/chapitre-2-1"
   file: content/fr/pages/chapitre-2-1/_index.html
 - title: Chapitre 3
-  target: https://nobadtrip.mmibordeaux.com/chapitre-3-1/
+  target: https://nobadtrip.mmibordeaux.com/chapitre-3/
   kind: url
   new_tab: false
   children: []
-  path: "/pages/chapitre-3"
-  file: content/fr/pages/chapitre-3/_index.html
 
