@@ -6,4 +6,9 @@ items:
   kind: url
   new_tab: true
   children: []
+- title: Linktree
+  target: https://linktr.ee/nobadtrip.off
+  kind: url
+  new_tab: true
+  children: []
 
