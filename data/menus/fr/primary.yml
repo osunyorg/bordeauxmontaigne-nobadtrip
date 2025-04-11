@@ -1,13 +1,11 @@
 ---
 title: Menu principal
 items:
-- title: Chapitre 1
+- title: Chapitre 1 - L'addiction
   target: https://nobadtrip.mmibordeaux.com/chapitre-1/
   kind: url
   new_tab: false
   children: []
-  path: "/pages/chapitre-1"
-  file: content/fr/pages/chapitre-1/_index.html
 - title: Chapitre 2
   target: https://nobadtrip.mmibordeaux.com/chapitre-2-1/
   kind: url
