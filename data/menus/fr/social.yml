@@ -2,23 +2,31 @@
 title: Liens sociaux
 items:
 - title: Youtube
+  slug: youtube
   target: https://www.youtube.com/@NoBadTrip-b5i
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 - title: Instagram
+  slug: instagram
   target: https://www.instagram.com/nobadtrip.off
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 - title: Tiktok
+  slug: tiktok
   target: https://www.tiktok.com/@nobadtrip.off
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 - title: Linktree
+  slug: linktree
   target: https://linktr.ee/nobadtrip.off
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 
