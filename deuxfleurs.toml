@@ -13,3 +13,36 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/chapitre-2-1/"
+to = "/deni-addiction/"
+
+[[redirects]]
+from = "/chapitre-3/"
+to = "/rechute/"
+
+[[redirects]]
+from = "/equipe-editoriale/"
+to = "/equipe/equipe-editoriale/"
+
+[[redirects]]
+from = "/a/"
+to = "/"
+
+[[redirects]]
+from = "/lucas-juillat-1/"
+to = "/equipe/lucas-juillat-1/"
+
+[[redirects]]
+from = "/Accueil/"
+to = "/deni-addiction/"
+
+[[redirects]]
+from = "/chapitre-1/"
+to = "/addiction/"
+
+[[redirects]]
+from = "/thibaud-von-borowski/"
+to = "/equipe/thibaud-von-borowski/"
+
