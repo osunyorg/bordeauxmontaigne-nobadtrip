@@ -15,34 +15,34 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/chapitre-2-1/index.html"
+from = "/chapitre-2-1/"
 to = "/deni-addiction/"
 
 [[redirects]]
-from = "/chapitre-3/index.html"
+from = "/chapitre-3/"
 to = "/rechute/"
 
 [[redirects]]
-from = "/equipe-editoriale/index.html"
+from = "/equipe-editoriale/"
 to = "/equipe/equipe-editoriale/"
 
 [[redirects]]
-from = "/a/index.html"
+from = "/a/"
 to = "/"
 
 [[redirects]]
-from = "/lucas-juillat-1/index.html"
+from = "/lucas-juillat-1/"
 to = "/equipe/lucas-juillat-1/"
 
 [[redirects]]
-from = "/Accueil/index.html"
+from = "/Accueil/"
 to = "/deni-addiction/"
 
 [[redirects]]
-from = "/chapitre-1/index.html"
+from = "/chapitre-1/"
 to = "/addiction/"
 
 [[redirects]]
-from = "/thibaud-von-borowski/index.html"
+from = "/thibaud-von-borowski/"
 to = "/equipe/thibaud-von-borowski/"
 
